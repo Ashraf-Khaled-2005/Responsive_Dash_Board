@@ -9,11 +9,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0XFFF7F9FA),
+      backgroundColor: const Color(0XFFF7F9FA),
       body: Adaptive_Layout(
-        mobile: (context) => SizedBox(),
-        tablet: (context) => SizedBox(),
-        desktop: (context) => HomePageDeskTop(),
+        mobile: (context) => const SizedBox(),
+        tablet: (context) => const SizedBox(),
+        desktop: (context) => const HomePageDeskTop(),
       ),
     );
   }
